@@ -1,0 +1,78 @@
+/* ----------Public Style--------------  */ 
+* { 
+    margin:  0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+/* ------------------------------  */ 
+.navbar{
+    background-color: black;
+
+}
+
+.allnav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo img { 
+    width: 60%;
+    padding-top: 7px;
+}
+
+
+
+.list ul{
+    display: flex;
+}
+
+.list ul li{
+    list-style-type: none;
+    margin-right: 20px;
+    padding-top: 10px;
+    
+}
+.list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+   
+}
+
+
+.portfolio{
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.portfolio h2 {
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  
+}
+
+.div-img{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.portfolio-item{
+    width: 33.33%;
+    padding-right: 5px;
+}
+
+.portfolio img{
+
+    width: 100%; 
+}
+
